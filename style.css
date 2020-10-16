@@ -1,0 +1,93 @@
+body {
+    background: url(tlo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: sticky;
+  }
+
+
+
+
+html, .root {
+    font-size: 20px; /*czyli 10 px, bedzie łatwo mnożyć*/
+    line-height: 16px;
+  }
+  body, .article {
+    
+  font-family: sans-serif;
+  font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.6em;
+    margin: auto;
+  }
+  h1, .h1 {
+    
+  
+    font-size: 4.8em;
+    line-height: 1em;
+    margin-top: 0.33333333em;
+    margin-bottom: 0.66666666em;
+  }
+  h2, .h2 {
+    
+  
+    font-size: 2.9em;
+    line-height: 1.10344828em;
+    margin-top: 0.55172414em;
+    margin-bottom: 0.55172414em;
+  }
+  h3, .h3 {
+    
+  
+    font-size: 1.7em;
+    line-height: 1.88235294em;
+    margin-top: 0.94117647em;
+    margin-bottom: 0em;
+  }
+  h4, .h4 {
+    
+  
+    font-size: 1em;
+    line-height: 1.6em;
+    margin-top: 1.6em;
+    margin-bottom: 0em;
+  }
+  h5, .h5 {
+    
+  
+    font-size: 1em;
+    line-height: 1.6em;
+    margin-top: 1.6em;
+    margin-bottom: 0em;
+  }
+  p, ul, ol, pre, table, blockquote  {
+    margin-top: 0em;
+    margin-bottom: 1.6em;
+  }
+  ul ul, ol ol, ul ol, ol ul {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+  
+  /* Let's make sure all's aligned */
+  hr, .hr {
+    border: 1px solid;
+    margin: -1px 0;
+  }
+  a, b, i, strong, em, small, code {
+    line-height: 0;
+  }
+  sub, sup {
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sup {
+    top: -0.5em;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  
