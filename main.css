@@ -1,0 +1,35 @@
+
+main {
+  margin-top: 100px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgb(243, 245, 220, 0.05);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+@media screen and (max-width: 1400px) {
+  main {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main {
+    width: 100%;
+  }
+  .project  {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    }
+    .project_description {
+      margin-left: 0px;
+    }
+    .project_image {
+      margin-right: 0px;
+    }
+}
+
