@@ -1,0 +1,13 @@
+header {
+    height: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(243, 245, 220, 0.35);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color:  rgba(14, 15, 1, 0.7);
+}
