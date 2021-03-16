@@ -134,8 +134,10 @@
       background-color: rgb(255, 255, 0.8);
       background-color: rgba(134, 4, 124, 0.6);
       background-color: red;
+     
+      
       transition: 1s;
-      width: fit-content;
+     
 
       /*visibility: hidden;*/
       opacity: 0;
@@ -155,10 +157,11 @@
       font-weight: 900;
       padding-left: 5px;
       padding-right: 5px;
-
-
-
       
+
+
+      text-align: center;
+      width: fit-content;
     }
 
 
@@ -222,7 +225,7 @@
  }
  .project_description__text {
      background-color: rgb(243, 245, 220, 0.2);
-   align-self: center;
+    align-self: center;
     padding-left: 5px;
     padding-right: 5px;
  }
