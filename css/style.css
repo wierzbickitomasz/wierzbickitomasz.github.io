@@ -102,17 +102,19 @@ html, .root {
 
 a {
   text-decoration: none;
+  target: blank
 }
 
 
 /*zaokrąglenie*/
-.project_content, .project_description, .project_description_text {
+.project_content, .project_description, .project_description_text, .project_image {
 border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 } 
+
 .tech_used_introduction,  .tech_used, .project_description_technologies, .tech_used_description_text{
   border-radius: 3px;
   -webkit-border-radius: 3px;

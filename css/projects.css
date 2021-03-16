@@ -134,8 +134,12 @@
       background-color: rgb(255, 255, 0.8);
       background-color: rgba(134, 4, 124, 0.6);
       background-color: red;
+      transition: 1s;
       width: fit-content;
-      visibility: hidden;
+
+      /*visibility: hidden;*/
+      opacity: 0;
+
 
       font-size: 0.6em;
       line-height: 1.334117647em;
@@ -204,7 +208,6 @@
 
  .git_icon {
   padding-right: 5px;
- 
  }
 
  .project_description_tittle{
