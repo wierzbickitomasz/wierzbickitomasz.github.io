@@ -9,7 +9,7 @@ main {
   border-top-right-radius: 5px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
   main {
     width: 100%;
   }
