@@ -7,12 +7,12 @@ const techUsedDescriptions =
     ["Primary Components: BrowserRouter, Route, Switch, Context","style", "b2e2", "b2e3", , , ]
   ];
 
-const techUsedContainer = document.querySelectorAll(".tech_used_container"); //belka, jest ich 3
-const techUsedDescriptionText = document.querySelectorAll(".tech_used_description_text"); //opis pod belka jest ich 3
+const techUsedContainer = document.querySelectorAll(".tech_used_container"); 
+const techUsedDescriptionText = document.querySelectorAll(".tech_used_description_text"); 
 
-for(let i = 0; i < techUsedContainer.length; i++) {   //iterujemy po belce
+for(let i = 0; i < techUsedContainer.length; i++) {  
     //console.log("-----belka nr:" + i);
-    for(let j = 0; j < ((techUsedContainer[i].querySelectorAll(".tech_used")).length); j++) { //iterujemy po poszczegolnych elementach belki
+    for(let j = 0; j < ((techUsedContainer[i].querySelectorAll(".tech_used")).length); j++) { 
         techUsedContainer[i].querySelectorAll(".tech_used")[j].addEventListener("mouseover", function(event) {
             console.log("belka:"+ i + "element w belce:" + j);
             //techUsedDescriptionText[i].style.visibility = "visible";
